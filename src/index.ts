@@ -1,14 +1,5 @@
 export {spinWords, stringAArray, stringInvertido}
-/* Ejemplos:
-spinWords("Hey fellow warriors") => "Hey wollef sroirraw" 
-spinWords("This is a test") => "This is a test" 
-spinWords("This is another test") => "This is rehtona test"  */
-// funcion principal para recorrer la frase Comprobar en esta funcion si el array.length es> 2 entonces eliminar espacios
-// funcion que transforma la frase en un array de strings
-// funcion para medir el tamaño de cada palabra
-// funcion que convierte un string dentro de un array en un string
-// funcion para invertir una palabra
-// spinWords("Esto es estopa la")
+
 /**
  * Hace un llamado a las demás funciones mientras recorre una frase;
  * @param {string} word 

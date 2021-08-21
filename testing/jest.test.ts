@@ -1,18 +1,13 @@
-/* Función que tome una cadena de palabras y en caso de que una palabra contenga más de 5 caracteres, devuelve esa palaba invertida
+/* Function that takes in a string of one or more words, 
+and returns the same string, but with all five or more letter words reversed, 
+(like the name of this kata).
+Strings passed in will consist of only letters and spaces.
+Spaces will be included only when more than one word is present.
 
-Reglas:
-Las cadenas pasadas constarán solo de letras y espacios.
-Los espacios se incluirán solo cuando haya más de una palabra.
-
-Ejemplos:
+Examples:
 spinWords("Hey fellow warriors") => "Hey wollef sroirraw" 
 spinWords("This is a test") => "This is a test" 
 spinWords("This is another test") => "This is rehtona test" */
-// funcion principal para recorrer la frase Comprobar en esta funcion si el array.length es> 2 entonces eliminar espacios
-// funcion que transforma la frase en un array de strings
-// funcion para medir el tamaño de cada palabra
-// funcion que convierte un string dentro de un array en un string
-// funcion para invertir una palabra
 
 import {spinWords, stringAArray, stringInvertido} from "../src/index";
 // spinWords:
